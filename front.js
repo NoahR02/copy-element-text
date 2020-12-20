@@ -1,0 +1,1 @@
+document.addEventListener("contextmenu", (e) => browser.runtime.sendMessage({greeting: e.target.innerText}));
